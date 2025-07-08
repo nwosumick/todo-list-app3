@@ -68,3 +68,41 @@ li{
       margin-left: 10px;
 
 }
+/* Responsiveness styles for Mobile */
+@media (max-width: 600px)  {
+    .to-do-list{
+       width: 90%;
+       margin: 20px auto;
+       padding: 15px;
+      }
+
+      input[type= "text"] {
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 14px;
+      }
+
+      .add-button {
+            width: 100%;
+            margin-left: 0;
+            font-size: 14px;
+            margin-top: 5px;
+      }
+
+      li{
+            flex-direction: column;
+            align-items: flex-start;
+      }
+
+      .text{
+            margin-bottom: 8px;
+            font-size: 14px;
+      }
+
+      button{
+            width: 100%;
+            margin: 3px 0;
+            font-size: 14px;
+      }
+
+}
